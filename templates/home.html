@@ -1,0 +1,466 @@
+{% extends "base.html" %}
+{%block content%}
+<style>
+    .container3{
+        background: url(https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a6617b93138_photo-1416359658663-73a3834895eb.jpg);
+        background-size: cover;
+        height: 700px;
+        color: white;
+        width: 100%;
+        justify-content: center;
+        padding-left: 400px;
+      padding-top: 350px; }
+  
+  .container3 h1{ 
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+  .container3 p{padding-right: 300px;
+    margin-bottom: 40px;
+    color: #2e9dff;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .container3  button{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    background-color: #69b9ff;
+    
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .container3 button:hover{
+      background-color:#17d5f7;
+      transition-delay: 100ms;
+      width: 205px;
+  }
+  .container4{
+    color: #676770;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    
+  }
+
+
+.container5{
+  color: #8e8e9c;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+
+}
+.container6{
+  
+  justify-content: space-evenly;
+  display: flex;
+  
+    -webkit-box-align: stretch;
+    align-items: stretch;
+
+width: 100%;
+margin-top: 50px;
+
+
+}
+.container6 img{
+  height: 100px;
+  width: 100px;
+}
+.container6 h3{
+  margin-top: 0px;
+    margin-bottom: 0px;
+    color: #676770;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+.container6 p{margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    padding-left: 30px;
+
+}
+.container6-1{
+  width: 22%;
+  border: 1px rgb(189, 240, 189) solid;
+  margin-left: 170px;
+  
+}
+.container6-2{
+  width: 22%;
+  border: 1px rgb(189, 240, 189) solid;
+  
+}
+
+.container6-3{
+  width: 22%;
+  border: 1px rgb(189, 240, 189) solid;
+  margin-right: 170px;
+  
+}
+.container7{
+  margin-top: 100px;
+  background-color:#192024;
+  
+  
+    background-size: cover;
+    margin-bottom: -20px;
+  }
+
+      .container7 h2{
+        font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+  
+    color: #fff;
+    padding-top: 70px;
+  
+}
+.container7 p{
+  font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e8e8e8;
+
+}
+.container8 {
+  background-color:#192024;
+  
+  
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  
+  
+  width: 100%;
+  
+}
+
+.container8 img{width: 400px;
+  height: 400px;
+  
+  padding-top: 90px;
+
+
+  
+
+}
+.container8-1{
+  padding-left: 150px;
+  
+}
+.container8-2{
+  padding-right: 240px;
+  
+}
+
+.container9{background-color:#192024;
+  
+  border: 2px #3300ff solid;
+  background-size: cover;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  
+  width: 100%;
+ margin-bottom: -100px;
+ height: 300px;
+}
+.container9 p{
+  margin-bottom: 20px;
+    color: #fff;
+
+   
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
+.container9 button{
+  display: inline-block;
+    margin-right: 10px;
+   
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.container9 :hover{
+  color:rgb(53, 160, 14);
+}
+.container9-1{
+  
+  width: 44%;
+  margin-top: 30px;
+  padding-left: 150px;
+  margin-right: 50px;
+
+}
+.container9-1 h3{
+  margin-bottom: 20px;
+    color: #fff;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.container9-2{
+  margin-top: 30px;
+  width: 44%;
+  padding-right: 150px;
+  margin-right: 50px;
+
+}
+
+.container9-2 h3{margin-bottom: 20px;
+    color: #fff;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+}
+
+.container10{
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+.container10 h1{
+  
+
+  color: #676770;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 36px;
+
+
+}
+.container10 p{color: #8e8e9c;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   
+  
+  
+  }
+  .container11{
+  margin-top: 50px;
+  justify-content: space-evenly;
+  margin-left: 350px;
+  font-size: 30px;
+  color: white;
+}
+.container11 button{
+  background-color: #2e80b6;
+  color: white;
+  
+  letter-spacing: 4px;
+  margin-right: 8px;
+    margin-left: 8px;
+    padding: 12px 30px;
+    border-radius: 4px;
+   transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.container11 :hover{
+  
+  color:rgb(66, 15, 114);
+}
+.container12{
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 130px;
+}
+.container13{
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #5c768e;
+}
+
+.container13-1 h2{
+  margin-top: 0px;
+    margin-bottom: 10px;
+    
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.container13-2 p{
+  margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 200;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+   
+}
+</style>
+<main>
+    <div class="container3">
+      <h1>THIS IS VELOCITY</h1>
+          <p>A free repsonsive template by webflow</p>
+          <button class="b1">SIGN UP</button>
+          <button class="b2">LEARN MORE</button>
+    </div>
+
+  <div class="container4">
+    <h2>what we do</h2>
+  </div>
+
+  <div class="container5">
+    <p>This is some text inside of a div block.</p>
+  </div>
+
+<div class="container6">
+    <div class="container6-1">
+      <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a6bf8b930f3_feather-15-white.svg" alt="">
+      <h3>Graphic Design</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+
+    <div class="container6-2">
+
+     <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1abad7b93103_feather2-17-white.svg" alt="">
+      <h3>Awesome code</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+
+    </div>
+    <div class="container6-3">
+      <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1aa9b8b9312b_feather2-22-white.svg" alt="">
+      
+      <h3>Free template</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    </div>
+ </div>
+
+ <div class="container7">
+  <h2>services</h2>
+  <p>This is some text inside of a div block.</p>
+ </div>
+
+ <div class="container8">
+  <div class="container8-1">
+  <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1acb41b9310a_city-scape-p-1080x721.jpeg" alt="">
+</div>
+<div class="container8-2">
+  <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1ab359b9312c_photo-1416400639808-f41f0c149b09-p-1080x721.jpeg" alt="">
+</div>
+ </div>
+
+ <div class="container9">
+  <div class="container9-1">
+    <h3>SERVICES one</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.</p>
+    <button>LEARN MORE</button>
+  </div>
+
+  <div class="container9-2">
+    <h3>SERVICES two</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.</p>
+    <button>LEARN MORE</button>
+  </div>
+ </div>
+
+ <div class="container10">
+  <div>
+      <h1>TAB SECTION</h1>
+      <p>THIS IS SOME TEXT INSIDE OF A DIV BLOCK.</p>
+  </div>
+</div> 
+
+<div class="container11">
+  <div>
+      <a href="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a316cb93127_photo-1422222948315-28aadb7a2cb8-p-1080x721.jpeg"><button>TAB BUTTON 1</button></a>
+      <a href="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1ab3f1b93110_5fcb0a55.jpg"><button>TAB BUTTON 2</button></a>
+      <a href="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a4509b93139_5cf8b62b-p-1080x718.jpeg"><button>TAB BUTTON 3</button></a>
+  </div>
+  </div> 
+  
+  
+  
+    <div class="container12">   
+      <img src="https://assets.website-files.com/5e4b18feebfd1a721bb930e6/5e4b18feebfd1a316cb93127_photo-1422222948315-28aadb7a2cb8-p-1080x721.jpeg">
+  </div>
+<div class="container13">
+  <div class="container13-1">
+    <h2>Some Title Here</h2>
+  </div>
+  <div class="container13-1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. <br>
+      Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. <br>
+      Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </div>
+</div>
+  
+  </main>
+{% endblock %}
